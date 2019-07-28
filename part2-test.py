@@ -24,11 +24,11 @@ else:
 	print("FAILED - should return 3521. Since x of 501 is not prime, should increment to 503, and y of 6 should go to 7")
 
 ## Test 4. Tests the decode with product of 2 primes
-print("Test 3")
-if(part2.encode(66839) in [(751,89),(89,751)]):
+print("Test 4")
+if(part2.decode(66839) in [(751,89),(89,751)]):
 	print("PASSED")
 else:
+	print(part2.decode(66839))
 	print("FAILED - for the input of 66839, decode should return (751,89) in some order")
-#,decode 
 
 ##Write more test cases here
